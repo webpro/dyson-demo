@@ -1,8 +1,6 @@
-// This configuration file is a dirty hack to link to some example endpoints at the root path
-
 module.exports = {
-    path: '/',
-	status: function(req, res) {
+	path: '/',
+	render: function(req, res) {
 
 		var html = '<h1>dyson</h1><p>Example endpoints:</p>';
 
@@ -21,7 +19,7 @@ module.exports = {
 		];
 
 		html += '<ul>' + examples.map(function(example) {
-			return '<li><a href="' + example + '">' + example +'</a></li>';
+			return '<li><a href="' + example + '">' + example + '</a></li>';
 		}).join('') + '</ul>';
 
 		res.send(200, html);
