@@ -1,28 +1,27 @@
 {
-    "name": "dyson-demo",
-    "version": "0.0.2",
-    "description": "Demo package for dyson",
-    "author": {
-        "name": "Lars Kappert",
-        "email": "lars@webpro.nl"
-    },
-    "main": "dyson-demo.js",
-    "scripts": {
-        "start": "node ./dyson-demo.js"
-    },
-    "dependencies": {
-        "dyson": "~0.10.0",
-        "dyson-generators": "~0.1",
-        "dyson-image": "~0.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/webpro/dyson-demo"
-    },
-    "engines": {
-        "node": ">=0.8"
-    },
-    "license": "MIT",
-    "homepage": "http://webpro.github.io/dyson/",
-    "subdomain": "dyson"
+  "name": "dyson-demo",
+  "version": "0.0.2",
+  "description": "Demo package for dyson",
+  "author": {
+    "name": "Lars Kappert",
+    "email": "lars@webpro.nl"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dyson": "^3.0.3",
+    "dyson-generators": "^0.2.1",
+    "dyson-image": "^0.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webpro/dyson-demo"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/webpro/dyson"
 }
