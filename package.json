@@ -11,7 +11,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "dyson": "^3.0.3",
+    "dyson": "^4.1.0",
     "dyson-generators": "^0.2.1",
     "dyson-image": "^0.2.1"
   },
